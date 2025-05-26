@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import '../styles/Footer.css';
 import logo from '../assets/images/logofoot.png';
 
-
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
   
   return (
@@ -30,31 +31,31 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="footer-section">
-            <h3>Quick Links</h3>
+            <h3>{t('general.quick_links')}</h3>
             <ul className="footer-links">
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/activities">Activities</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
+              <li><Link to="/">{t('general.home')}</Link></li>
+              <li><Link to="/activities">{t('general.activities')}</Link></li>
+              <li><Link to="/contact">{t('general.contact')}</Link></li>
             </ul>
           </div>
           
           <div className="footer-section">
-            <h3>Contact</h3>
+            <h3>{t('contact.get_in_touch')}</h3>
             <address>
               <p>Kigali, Rwanda</p>
-              <p>Email: contact@imisozi.com</p>
-              <p>Phone: +250 792 406 355</p>
+              <p>{t('contact.email')}: contact@imisozi.com</p>
+              <p>{t('contact.phone')}: +250 792 406 355</p>
             </address>
           </div>
         </div>
         
         <div className="footer-bottom">
           <div className="legal-links">
-            <Link to="/legal/terms">Terms of Use</Link>
-            <Link to="/legal/privacy">Privacy Policy</Link>
+            <Link to="/legal/terms">{t('footer.terms')}</Link>
+            <Link to="/legal/privacy">{t('footer.privacy')}</Link>
           </div>
           <p className="copyright">
-            &copy; {currentYear} Imisozi. All rights reserved.
+            &copy; {currentYear} Imisozi. {t('footer.copyright')}
           </p>
         </div>
       </div>
