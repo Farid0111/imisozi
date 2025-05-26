@@ -294,10 +294,28 @@ class ActivityService {
   async delete(id: string): Promise<void> {
     try {
       const docRef = doc(db, this.collectionName, id);
+      
+      // Supprimer le document
       await deleteDoc(docRef);
 
-      // Invalider le cache
-      this.cache.clear();
+      // Nettoyer le cache spécifique à cette activité
+      const activityCacheKey = `activity_${id}`;
+      this.cache.delete(activityCacheKey);
+      this.preloadedActivities.delete(id);
+
+      // Nettoyer tous les caches de liste qui pourraient contenir cette activité
+      Array.from(this.cache.keys()).forEach(key => {
+        if (key.startsWith('activities_')) {
+          this.cache.delete(key);
+        }
+      });
+
+      // Nettoyer les listeners
+      const activityListener = this.listeners.get(activityCacheKey);
+      if (activityListener) {
+        activityListener();
+        this.listeners.delete(activityCacheKey);
+      }
     } catch (error) {
       console.error('Error deleting activity:', error);
       throw new Error('Failed to delete activity');

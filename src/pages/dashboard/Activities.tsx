@@ -67,7 +67,7 @@ const DashboardActivities: React.FC = () => {
   };
 
   const handleDelete = (id: string) => {
-    navigate(`/dashboard/activities/delete/${id}`);
+    navigate(`/dashboard/delete-activity/${id}`);
   };
 
   const loadMore = () => {
