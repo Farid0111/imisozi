@@ -19,11 +19,13 @@
       "popular": "Popular Activities",
       "testimonials": "Testimonials",
       "discover": "Discover Rwanda",
-      "view_all": "View all"
+      "view_all": "View all",
+      "description": "Discover our selection of unique experiences to explore Rwanda. From gorilla treks to safaris, through cultural immersions, find the adventure that suits you."
     }
   },
   "activities": {
     "title": "Our Activities",
+    "description": "Discover our selection of unique experiences to explore Rwanda. From gorilla treks to safaris, through cultural immersions, find the adventure that suits you.",
     "filter": "Filter by",
     "sort": "Sort by",
     "price": "Price",
