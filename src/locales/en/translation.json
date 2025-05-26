@@ -1,0 +1,78 @@
+{
+  "general": {
+    "home": "Home",
+    "activities": "Activities",
+    "about": "About",
+    "contact": "Contact",
+    "language": "Language",
+    "cart": "Cart",
+    "search": "Search"
+  },
+  "home": {
+    "hero": {
+      "title": "Discover Rwanda",
+      "subtitle": "The land of a thousand hills awaits you",
+      "cta": "Explore our activities"
+    },
+    "sections": {
+      "popular": "Popular Activities",
+      "testimonials": "Testimonials",
+      "discover": "Discover Rwanda",
+      "view_all": "View all"
+    }
+  },
+  "activities": {
+    "title": "Our Activities",
+    "filter": "Filter by",
+    "sort": "Sort by",
+    "price": "Price",
+    "duration": "Duration",
+    "region": "Region",
+    "all_regions": "All regions",
+    "all_durations": "All durations",
+    "per_person": "per person",
+    "view_details": "View details",
+    "book_now": "Book now",
+    "add_to_cart": "Add to cart"
+  },
+  "detail": {
+    "description": "Description",
+    "itinerary": "Itinerary",
+    "details": "Details",
+    "faq": "FAQ",
+    "highlights": "Highlights",
+    "to_know": "Good to know",
+    "included": "What's included",
+    "not_included": "Not included",
+    "book_this_activity": "Book this activity",
+    "day": "Day",
+    "read_reviews": "Read reviews",
+    "need_help": "Need help?",
+    "price_from": "From"
+  },
+  "contact": {
+    "get_in_touch": "Get in touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "address": "Address",
+    "phone": "Phone",
+    "follow_us": "Follow us"
+  },
+  "footer": {
+    "company": "Company",
+    "newsletter": "Subscribe to our newsletter",
+    "subscribe": "Subscribe",
+    "terms": "Terms of use",
+    "privacy": "Privacy policy",
+    "copyright": "© 2023 Tourism Rwanda. All rights reserved."
+  },
+  "chat": {
+    "need_help": "Need help?",
+    "welcome": "Welcome! How can I help you today?",
+    "send": "Send",
+    "ask_question": "Ask a question...",
+    "close": "Close"
+  }
+} 

@@ -1,0 +1,78 @@
+{
+  "general": {
+    "home": "Accueil",
+    "activities": "Activités",
+    "about": "À propos",
+    "contact": "Contact",
+    "language": "Langue",
+    "cart": "Panier",
+    "search": "Rechercher"
+  },
+  "home": {
+    "hero": {
+      "title": "Découvrez le Rwanda",
+      "subtitle": "Le pays des mille collines vous attend",
+      "cta": "Explorer nos activités"
+    },
+    "sections": {
+      "popular": "Activités populaires",
+      "testimonials": "Témoignages",
+      "discover": "Découvrez le Rwanda",
+      "view_all": "Voir tout"
+    }
+  },
+  "activities": {
+    "title": "Nos Activités",
+    "filter": "Filtrer par",
+    "sort": "Trier par",
+    "price": "Prix",
+    "duration": "Durée",
+    "region": "Région",
+    "all_regions": "Toutes les régions",
+    "all_durations": "Toutes les durées",
+    "per_person": "par personne",
+    "view_details": "Voir détails",
+    "book_now": "Réserver maintenant",
+    "add_to_cart": "Ajouter au panier"
+  },
+  "detail": {
+    "description": "Description",
+    "itinerary": "Itinéraire",
+    "details": "Détails",
+    "faq": "FAQ",
+    "highlights": "Points forts",
+    "to_know": "À savoir",
+    "included": "Ce qui est inclus",
+    "not_included": "Non inclus",
+    "book_this_activity": "Réserver cette activité",
+    "day": "Jour",
+    "read_reviews": "Lire les avis",
+    "need_help": "Besoin d'aide?",
+    "price_from": "À partir de"
+  },
+  "contact": {
+    "get_in_touch": "Contactez-nous",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "follow_us": "Suivez-nous"
+  },
+  "footer": {
+    "company": "L'Entreprise",
+    "newsletter": "Inscrivez-vous à notre newsletter",
+    "subscribe": "S'abonner",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "copyright": "© 2023 Tourisme Rwanda. Tous droits réservés."
+  },
+  "chat": {
+    "need_help": "Besoin d'aide ?",
+    "welcome": "Bienvenue ! Comment puis-je vous aider aujourd'hui ?",
+    "send": "Envoyer",
+    "ask_question": "Posez une question...",
+    "close": "Fermer"
+  }
+} 
