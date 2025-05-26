@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
               <span>📱</span>
             </div>
             <h3>Phone</h3>
-            <p>+250 78 123 4567</p>
+            <p>+250 792 406 355</p>
             <p>Available 7 days a week from 8am to 6pm</p>
           </div>
           
@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
               <span>✉️</span>
             </div>
             <h3>Email</h3>
-            <p>contact@tourism-rwanda.com</p>
+            <p>contact@imisozi.com</p>
             <p>Response within 24 hours</p>
           </div>
           
